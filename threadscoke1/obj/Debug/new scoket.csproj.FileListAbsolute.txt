@@ -1,0 +1,6 @@
+C:\Users\app.DXWIN\Desktop\test\WebApplication1\new scoket\bin\Debug\new scoket.exe.config
+C:\Users\app.DXWIN\Desktop\test\WebApplication1\new scoket\bin\Debug\new scoket.exe
+C:\Users\app.DXWIN\Desktop\test\WebApplication1\new scoket\bin\Debug\new scoket.pdb
+C:\Users\app.DXWIN\Desktop\test\WebApplication1\new scoket\obj\Debug\new scoket.exe
+C:\Users\app.DXWIN\Desktop\test\WebApplication1\new scoket\obj\Debug\new scoket.pdb
+C:\Users\app.DXWIN\Desktop\test\WebApplication1\new scoket\obj\Debug\new scoket.csprojResolveAssemblyReference.cache

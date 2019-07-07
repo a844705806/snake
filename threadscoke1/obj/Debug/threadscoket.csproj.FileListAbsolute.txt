@@ -1,0 +1,19 @@
+C:\Users\app.DXWIN\Desktop\test\WebApplication1\threadscoket\bin\Debug\new scoket.exe.config
+C:\Users\app.DXWIN\Desktop\test\WebApplication1\threadscoket\obj\Debug\new scoket.exe
+C:\Users\app.DXWIN\Desktop\test\WebApplication1\threadscoket\obj\Debug\new scoket.pdb
+C:\Users\app.DXWIN\Desktop\test\WebApplication1\threadscoket\bin\Debug\new scoket.exe
+C:\Users\app.DXWIN\Desktop\test\WebApplication1\threadscoket\bin\Debug\new scoket.pdb
+C:\Users\app.DXWIN\Desktop\test\WebApplication1\threadscoket\obj\Debug\threadscoket.csprojResolveAssemblyReference.cache
+C:\Users\chenguangren\Desktop\test\WebApplication1\threadscoket\bin\Debug\new scoket.exe.config
+C:\Users\chenguangren\Desktop\test\WebApplication1\threadscoket\obj\Debug\new scoket.exe
+C:\Users\chenguangren\Desktop\test\WebApplication1\threadscoket\obj\Debug\new scoket.pdb
+C:\Users\chenguangren\Desktop\test\WebApplication1\threadscoket\bin\Debug\new scoket.exe
+C:\Users\chenguangren\Desktop\test\WebApplication1\threadscoket\bin\Debug\new scoket.pdb
+C:\Users\chenguangren\Desktop\修改\snake\snake_all\threadscoket\bin\Debug\new scoket.exe.config
+C:\Users\chenguangren\Desktop\修改\snake\snake_all\threadscoket\bin\Debug\new scoket.exe
+C:\Users\chenguangren\Desktop\修改\snake\snake_all\threadscoket\bin\Debug\new scoket.pdb
+C:\Users\chenguangren\Desktop\修改\snake\snake_all\threadscoket\obj\Debug\threadscoket.csprojResolveAssemblyReference.cache
+C:\Users\chenguangren\Desktop\修改\snake\snake_all\threadscoket\obj\Debug\new scoket.exe
+C:\Users\chenguangren\Desktop\修改\snake\snake_all\threadscoket\obj\Debug\new scoket.pdb
+C:\Users\chenguangren\Desktop\修改\snake\snake_all\threadscoket\bin\Debug\Newtonsoft.Json.dll
+C:\Users\chenguangren\Desktop\修改\snake\snake_all\threadscoket\bin\Debug\Newtonsoft.Json.xml

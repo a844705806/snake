@@ -1,0 +1,105 @@
+﻿<html>
+<head>
+	<meta charset="utf-8">
+	<title>NippleJS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=0.5">
+	<style>
+		html, body {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			padding: 0;
+			margin: 0;
+		}
+
+		#left {
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 100%;
+			width: 100%;
+			background: rgba(0, 255, 0, 0.1);
+		}
+	</style>
+</head>
+<body>
+	<div id="left">
+		<div class="nipple collection_0" id="nipple_0_0" style="position: absolute; opacity: 0.5; display: block; z-index: 999; transition: opacity 250ms; -webkit-transition: opacity 250ms; top: 50%; left: 20%;">
+			<div class="back" style="position: absolute; display: block; width: 200px; height: 200px; margin-left: -100px; margin-top: -100px; background-color: green; opacity: 0.5; border-top-left-radius: 50%; border-top-right-radius: 50%; border-bottom-right-radius: 50%; border-bottom-left-radius: 50%; background-position: initial; background-repeat: initial;">
+			</div>
+			<div class="front" style="width: 100px; height: 100px; position: absolute; display: block; margin-left: -50px; margin-top: -50px; background-color: green; opacity: 0.5; border-top-left-radius: 50%; border-top-right-radius: 50%; border-bottom-right-radius: 50%; border-bottom-left-radius: 50%; background-position: initial; background-repeat: initial;"></div>
+		</div>
+		<!--分割-->
+		<div id="img" style="background-color: red;height: 100px;width: 100px;left:100px;top:100px;position: absolute;">
+			<label id="angel"></label>
+		</div>
+	</div>
+	<script src="js/nipplejs.js" charset="utf-8"></script>
+	<script>	
+
+
+		var joystick = nipplejs.create({
+			zone: document.getElementById('left'),
+			mode: 'static',
+			position: { left: '20%', top: '50%' },
+			color: 'green',
+			size: 200
+		});
+	</script>
+
+	<script>
+		var material = document.getElementById("img");
+
+			//初始化
+			bindNipple();
+
+		//转类型
+			function myParseInt(s)
+			{
+				var ret = parseInt(s);
+				return (isNaN(ret) ? 0 : ret);
+			}
+
+
+		function bindNipple()
+		{
+			joystick.on('start end', function (evt, data)
+			{
+
+			}).on('move', function (evt, data)
+			{
+				//debug(data);
+			}).on('dir:up plain:up dir:left plain:left dir:down ' +
+				'plain:down dir:right plain:right',
+				function (evt, data)
+				{
+					if (data.direction.angle == "right")
+					{
+						material.style.backgroundColor = "black";
+						material.style.left = (myParseInt(material.style.left) + 10) + "px";
+					}
+					else if(data.direction.angle == "left")
+					{
+						material.style.left = (myParseInt(material.style.left) - 10) + "px";
+					}
+					else if (data.direction.angle == "up")
+					{
+						material.style.top = (myParseInt(material.style.top) - 10) + "px";
+					} 
+					else 
+					{
+						material.style.top = (myParseInt(material.style.top) + 10) + "px";
+					}
+
+				}
+			).on('pressure', function (evt, data)
+			{
+				//debug({ pressure: data });
+			});
+		}
+		
+        </script>
+</body>
+</html>

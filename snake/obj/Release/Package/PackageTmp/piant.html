@@ -1,0 +1,114 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>涂鸦板</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .hs {
+            width: 480px;
+            height: 50px;
+            margin: 0 auto;
+        }
+
+        a {
+            width: 100px;
+            height: 50px;
+            display: block;
+            cursor: pointer;
+            float: left;
+            margin: 0 10px;
+        }
+
+        #red {
+            background-color: red;
+        }
+
+        #green {
+            background-color: green;
+        }
+
+        #blue {
+            background-color: blue;
+        }
+
+        #refresh {
+            background-color: #CCC;
+            line-height: 50px;
+            text-align: center;
+            font-size: 20px;
+            color: #fff;
+        }
+    </style>
+    <script>
+
+		  var flag=false;
+         window.onload=function(){
+			 var canvas=document.getElementById("myCanvas");
+			 var context=canvas.getContext("2d");
+			 context.lineWidth=5;
+			 context.strokeStyle="red";
+			 context.lineCap="round";
+			 var red=document.getElementById("red");
+			var green=document.getElementById("green");
+			var blue=document.getElementById("blue");
+			var refresh=document.getElementById("refresh");
+			red.onclick=function(){
+				context.beginPath();
+				context.strokeStyle="red"
+				}
+			 green.onclick=function(){
+				 context.beginPath();
+				context.strokeStyle="green"
+				}
+			 blue.onclick=function(){
+				 context.beginPath();
+				context.strokeStyle="blue"
+				}
+			 refresh.onclick=function(){
+				 context.clearRect(0,0,canvas.width,canvas.height);
+				 context.beginPath();
+				 }
+			 canvas.addEventListener("mousedown",function(event){
+				 var event=event||window.event;
+
+				 if(!flag){
+					 var startX=event.clientX-canvas.getBoundingClientRect().left;
+				     var startY=event.clientY-canvas.getBoundingClientRect().top;
+					 context.moveTo(startX,startY);
+					 flag=true;
+					 }
+				 })
+			 canvas.addEventListener("mousemove",function(event){
+					if(flag){
+						var event=event||window.event;
+						var curX=event.clientX-canvas.getBoundingClientRect().left;
+						var curY = event.clientY - canvas.getBoundingClientRect().top;
+
+						context.lineTo(curX,curY);
+						context.stroke();
+						}
+					})
+			 canvas.addEventListener("mouseup",function(){
+					flag=false;
+					});
+			canvas.addEventListener("mouseout",function(){
+					flag=false;
+					})
+			 }
+    </script>
+</head>
+<body>
+    <canvas id="myCanvas" width="1400" height="600" style="display:block;border:1px solid blue;margin:20px auto;"></canvas>
+    <div class="hs">
+        <a id="red"></a>
+        <a id="green"></a>
+        <a id="blue"></a>
+        <a id="refresh">重绘</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <canvas id="cav" width="1300" height="1300"></canvas>
+
+    <script type="text/javascript">
+        var game = null;
+        var canvas = null;
+        var pen = null;
+        var fpen = null;
+        var ballpen = null;
+        var width = 300;
+        var height = 500;
+        var lineGrad = null;
+        var direction = "right";
+
+        var time = null;
+        //
+        var color = null;
+        var state = 0;
+
+        //服务器数据
+        var service_data = null;
+
+        var snake = [];
+
+        var snake_player = [];
+
+        var food = [];
+
+        ballpen = function (x, y) {
+            this.x = x;
+            this.y = y;
+            this.color = "#000000";
+            this.cacheCanvas = document.createElement("canvas");
+            this.cacheCtx = this.cacheCanvas.getContext("2d");
+            this.cacheCtx.save();
+            this.cacheCtx.beginPath();
+            this.cacheCtx.strokeStyle = this.color;
+            this.cacheCtx.arc(this.x, this.y, 2, 0, 2 * Math.PI);
+            this.cacheCtx.fill();
+            this.cacheCtx.stroke();
+            this.cacheCtx.restore();
+
+            //pen.drawImage(this.cacheCanvas, x, y);
+        };
+
+        ballpen.prototype = {
+            paint: function () {
+                pen.drawImage(this.cacheCanvas, this.x, this.y);
+            }
+        };
+
+
+
+        window.onload = function () {
+            //连接成功,准备绘画游戏
+            canvas = document.getElementById("cav");
+            canvas.style.backgroundColor = "burlywood";
+            //画蛇的画笔
+            pen = canvas.getContext("2d");
+            //画食物的画笔
+            fpen = canvas.getContext("2d");
+
+            for (i = 0; i < 10; i++) {
+
+                var f = new ballpen(i * 10 + 5, i * 10 + 5);
+                f.paint();
+            }
+        }
+    </script>
+</body>
+</html>

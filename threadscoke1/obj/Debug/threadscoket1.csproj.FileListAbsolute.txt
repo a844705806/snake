@@ -1,0 +1,30 @@
+C:\Users\chenguangren\Desktop\修改\snake\snake_all\threadscoke1\bin\Debug\new scoket.exe.config
+C:\Users\chenguangren\Desktop\修改\snake\snake_all\threadscoke1\obj\Debug\new scoket.exe
+C:\Users\chenguangren\Desktop\修改\snake\snake_all\threadscoke1\obj\Debug\new scoket.pdb
+C:\Users\chenguangren\Desktop\修改\snake\snake_all\threadscoke1\bin\Debug\new scoket.exe
+C:\Users\chenguangren\Desktop\修改\snake\snake_all\threadscoke1\bin\Debug\new scoket.pdb
+C:\Users\chenguangren\Desktop\修改\snake\snake_all\threadscoke1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\chenguangren\Desktop\修改\snake\snake_all\threadscoke1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\chenguangren\Desktop\修改\snake\snake_all\threadscoke1\obj\Debug\threadscoket1.csprojAssemblyReference.cache
+C:\Users\chenguangren\Desktop\修改\snake\snake_all\threadscoke1\obj\Debug\threadscoket1.csproj.CoreCompileInputs.cache
+C:\Users\chenguangren\Desktop\修改\snake\snake_all\threadscoke1\obj\Debug\threadscoket1.csproj.CopyComplete
+C:\Users\chenguangren\Desktop\190707\snake\snake_all\threadscoke1\bin\Debug\new scoket.exe.config
+C:\Users\chenguangren\Desktop\190707\snake\snake_all\threadscoke1\bin\Debug\new scoket.exe
+C:\Users\chenguangren\Desktop\190707\snake\snake_all\threadscoke1\bin\Debug\new scoket.pdb
+C:\Users\chenguangren\Desktop\190707\snake\snake_all\threadscoke1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\chenguangren\Desktop\190707\snake\snake_all\threadscoke1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\chenguangren\Desktop\190707\snake\snake_all\threadscoke1\obj\Debug\threadscoket1.csprojAssemblyReference.cache
+C:\Users\chenguangren\Desktop\190707\snake\snake_all\threadscoke1\obj\Debug\threadscoket1.csproj.CoreCompileInputs.cache
+C:\Users\chenguangren\Desktop\190707\snake\snake_all\threadscoke1\obj\Debug\threadscoket1.csproj.CopyComplete
+C:\Users\chenguangren\Desktop\190707\snake\snake_all\threadscoke1\obj\Debug\new scoket.exe
+C:\Users\chenguangren\Desktop\190707\snake\snake_all\threadscoke1\obj\Debug\new scoket.pdb
+C:\Users\chenguangren\Desktop\snake_game\threadscoke1\bin\Debug\new scoket.exe.config
+C:\Users\chenguangren\Desktop\snake_game\threadscoke1\bin\Debug\new scoket.exe
+C:\Users\chenguangren\Desktop\snake_game\threadscoke1\bin\Debug\new scoket.pdb
+C:\Users\chenguangren\Desktop\snake_game\threadscoke1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\chenguangren\Desktop\snake_game\threadscoke1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\chenguangren\Desktop\snake_game\threadscoke1\obj\Debug\threadscoket1.csprojAssemblyReference.cache
+C:\Users\chenguangren\Desktop\snake_game\threadscoke1\obj\Debug\threadscoket1.csproj.CoreCompileInputs.cache
+C:\Users\chenguangren\Desktop\snake_game\threadscoke1\obj\Debug\threadscoket1.csproj.CopyComplete
+C:\Users\chenguangren\Desktop\snake_game\threadscoke1\obj\Debug\new scoket.exe
+C:\Users\chenguangren\Desktop\snake_game\threadscoke1\obj\Debug\new scoket.pdb
